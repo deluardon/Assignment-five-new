@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+   <div class="m-5">
+    <button
+    id="toggleButton"
+    onclick="togglePage()"
+    class="bg-[#B4F461] px-4 py-2 rounded-lg text-[#111] text-2xl font-semibold ">
+    Home
+  </button>
+   </div>
+
+<section class="">
+  
+  <div class="collapse collapse-arrow bg-base-200">
+    <input type="radio" name="my-accordion-2" checked="checked" />
+    <div class="collapse-title text-xl font-medium">
+      What is the Document Object Model (DOM)?
+    </div>
+    <div class="collapse-content">
+      <p>The Document Object Model (DOM) is a programming interface that allows scripts to access and manipulate the structure, content, and style of a web document.
+      </p>
+    </div>
+  </div>
+  <div class="collapse collapse-arrow bg-base-200">
+    <input type="radio" name="my-accordion-2" />
+    <div class="collapse-title text-xl font-medium">
+      How do you select an element from the DOM?
+
+    </div>
+    <div class="collapse-content">
+      <p>Using getElementById: The getElementById method allows you to select an element by its ID. ...</p>
+    </div>
+  </div>
+  <div class="collapse collapse-arrow bg-base-200">
+    <input type="radio" name="my-accordion-2" />
+    <div class="collapse-title text-xl font-medium">
+      What is event delegation in the context of the DOM , and why is  it useful?
+
+    </div>
+    <div class="collapse-content">
+      <p>Event delegation is a technique where a single event listener is added to a parent element instead of individual child elements. It captures events that bubble up from child elements.
+      </p>
+    </div>
+  </div>
+  <div class="collapse collapse-arrow bg-base-200">
+    <input type="radio" name="my-accordion-2" />
+    <div class="collapse-title text-xl font-medium">
+      How do you manipulate an element's attributes and styles DOM?
+
+    </div>
+    <div class="collapse-content">
+      <p>The classList object only provide methods to change the class of an element. If you want to change other attributes like id , href , or src , you can use the setAttribute() method. The setAttribute() method accepts two arguments: The name of the attribute to set
+      </p>
+    </div>
+  </div>
+</section>
+    <script src="script.js"></script>
+  </body>
+</html>
